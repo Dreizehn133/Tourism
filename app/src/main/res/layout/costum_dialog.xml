@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#13beaa"
+        android:text="Transaksi"
+        android:textColor="@color/white"
+        android:layout_gravity="center_vertical|top"
+        android:textSize="30dp"
+        android:padding="5dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Kategori"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:entries="@array/spinner"
+        android:id="@+id/spinnerKat"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total : Rp. "
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/totHarga"
+            android:text=""
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+
+        >
+        <Button
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/btnCancel"
+            android:textAlignment="center"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            android:background="#345ad7"
+            android:layout_marginRight="5dp"
+            />
+        <Button
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/btnSubmit"
+            android:textAlignment="center"
+            android:text="SUBMIT"
+            android:textColor="@color/white"
+            android:background="#f90f0f"
+            android:layout_marginLeft="5dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>

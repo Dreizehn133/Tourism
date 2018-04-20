@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/topT" android:title="Top Tourism on the day" android:icon="@drawable/ic_brightness_high_black_24dp"></item>
+<item android:id="@+id/menu1" android:title="Tiket Ku" android:icon="@drawable/ic_archive_black_24dp"></item>
+<item android:id="@+id/trans" android:title="Transaksi Ku" android:icon="@drawable/ic_touch_app_black_24dp"></item>
+
+    <item android:id="@+id/logout" android:title="LOG OUT" android:icon="@drawable/ic_settings_power_black_24dp"></item>
+</menu>
